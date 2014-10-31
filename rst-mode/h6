@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Header 6
+# key: h6
+# --
+${1:h6}
+${1:$(make-string (string-width yas-text) ?\+)}
+
+$0
